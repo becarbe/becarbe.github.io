@@ -190,12 +190,12 @@ a:hover {
 	line-height: normal;
 	text-align: center;
 	text-shadow: 1px 1px 0px #FFFFFF;
-	color: #909090;
+	color: ##383838;
 }
 
 #footer a {
 	text-decoration: underline;
-	color: #909090;
+	color: #383838;
 }
 
 #footer a:hover {
@@ -260,6 +260,7 @@ a:hover {
 	color: #bebebe;
 
 }
+
 
 
 
