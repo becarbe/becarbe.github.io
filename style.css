@@ -154,7 +154,7 @@ a:hover {
 #menu a:hover, #menu .current_page_item a {
 	background: #7D7764;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #bebebe;
 }
 
 #menu .current_page_item a {
@@ -260,6 +260,7 @@ a:hover {
 	color: #FFFFFF;
 
 }
+
 
 
 
