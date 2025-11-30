@@ -72,14 +72,30 @@ Released   : 20130406
 
 <!-- ON OTHER PAGES, LIKE THE PROJECT PAGES, YOU WILL TAKE OUT EVERYTHING BETWEEN HERE AND THE END OF THE CONTENT SECTION AND REPLACE IT WITH THE PROJECT CONTENT. -->
     
-    
+    <head>
+    <meta charset="UTF-8">
+    <title>Your Page Title</title>
+
+    <style>
+        /* Center the whole section content */
+        #three-column {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Override any float/width rules on tbox2 from the template */
+        #three-column .tbox2 {
+            float: none;          /* cancel any float */
+            margin: 0 auto;       /* center horizontally */
+            text-align: center;   /* center text inside */
+        }
+    </style>
+
+</head>
     
     
 	<div id="three-column" class="container">
-		#three-column {
-    display: flex;
-    justify-content: center;
-}
+		
 		<div class="tbox2"> <style=margin:0 auto; width:fit-content; text-align:center;">
 			<div class="box-style">
 				<div class="content">
