@@ -211,7 +211,6 @@ a:hover {
 
 
 /* Three Column Content */
-
 .three-column {
 	overflow: hidden;
 	padding: 10px 0px 50px 0px;
@@ -231,7 +230,7 @@ a:hover {
 .three-column .tbox3 {
 	float: right;
 	width: 384px;
-}
+
 
 .box-style {
 	background: #bebebe;
@@ -280,6 +279,7 @@ body {
   background: #222;
   color: #fff;
 }
+
 
 
 
