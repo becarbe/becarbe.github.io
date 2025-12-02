@@ -241,7 +241,6 @@ a:hover {
 
 .box-style .content {
 	overflow: hidden;
-	width: 100%;
 	padding: 30px;
 }
 
@@ -274,6 +273,7 @@ body {
   background: #222;
   color: #fff;
 }
+
 
 
 
