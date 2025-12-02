@@ -178,10 +178,10 @@ a:hover {
 
 /* Footer */
 
-#footer {
+/*#footer {
 	height: 100px;
 	margin: 0 auto;
-	padding: 50px 0px 0px 0px;
+	padding: 50px 0px 0px 0px;*/
 }
 
 #footer p {
@@ -273,6 +273,7 @@ body {
   background: #222;
   color: #fff;
 }
+
 
 
 
