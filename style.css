@@ -261,6 +261,25 @@ a:hover {
 
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+#wrapper {
+  flex: 1;
+}
+#footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #222;
+  color: #fff;
+}
 
 
 
