@@ -212,25 +212,20 @@ a:hover {
 
 /* Three Column Content */
 .three-column {
-	overflow: hidden;
-	padding: 10px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 50px 0px;
+    gap: 0;
 }
 
-.three-column .tbox1 {
-	float: left;
-	width: 384px;
-	margin-right: 20px;
-}
-
-.three-column .tbox2 {
-	float: left;
-	width: 384px;
-}
-
+.three-column .tbox1,
+.three-column .tbox2,
 .three-column .tbox3 {
-	float: right;
-	width: 384px;
-
+    width: 32%;
+    margin: 0;
+    float: none;
+    box-sizing: border-box;
+}
 
 .box-style {
 	background: #bebebe;
@@ -279,6 +274,7 @@ body {
   background: #222;
   color: #fff;
 }
+
 
 
 
